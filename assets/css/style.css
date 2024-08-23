@@ -1,1 +1,146 @@
 /* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e9edee;
+}
+
+.orang {
+  background-color: rgb(240, 83, 26);
+  color: white;
+  padding: 1%;
+}
+
+header > div > p {
+  text-align: center;
+}
+
+.Holiday {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.Holiday > h1,
+.Holiday > h3 {
+  text-align: center;
+  color: aliceblue;
+  background-image: url(../images/bg-image.png);
+  padding: 20px;
+}
+
+.Holiday > h1 {
+  padding-top: 4%;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 200%;
+}
+.Holiday > h3 {
+  line-height: 10px;
+  padding-bottom: 3%;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.immagini > img {
+  width: 20%;
+  border-radius: 20%;
+  height: 330px;
+  padding: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.immagine2 > img {
+  width: 100%;
+  border: 20%;
+}
+.immagine2 > p {
+  text-align: center;
+}
+
+.immagine3 > img {
+  width: 100%;
+}
+
+.immagine3 > p {
+  text-align: center;
+}
+
+.immagine2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.immagine3 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #2b6e75;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.noimg > p {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  padding: 2rem;
+  margin-top: 3%;
+}
+.noimg {
+  background-color: #364759;
+}
+
+.immagine4 {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+.immagine4 > img {
+  width: 10%;
+  padding: 3%;
+}
+
+.classe2 {
+  background-color: #364759;
+  text-align: left;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.classe1 {
+  background-color: #222f3f;
+  padding: 1%;
+}
+
+.classe1 > img {
+  width: 150px;
+}
+
+.classe2 > p {
+  color: white;
+  text-align: left;
+}
+
+span {
+  padding-left: 2%;
+}
+
+.orang,
+.Holiday,
+.immagini {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.immagini {
+  background-color: white;
+  padding: 1%;
+}
